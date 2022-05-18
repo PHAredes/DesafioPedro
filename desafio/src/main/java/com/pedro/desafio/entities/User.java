@@ -1,9 +1,13 @@
 package com.pedro.desafio.entities;
 
+import java.util.List;
+import java.util.ArrayList;
+
 public class User {
     
     private String name;
     private String age;
+    private List<Rating> reviews = new ArrayList<>();
     
     public User() {
         
@@ -28,6 +32,10 @@ public class User {
 
     public void setAge(String age) {
         this.age = age;
+    }
+    
+    public void AddReview(Rating review) [
+	review.add(review);
     }
     
 }
